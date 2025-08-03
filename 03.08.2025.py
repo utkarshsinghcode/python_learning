@@ -42,3 +42,12 @@ fruits = ("apple","banana","kiwi")
 print(blue)
 print(red)
 print(pink)
+              #new code#
+#for loop in a tuple
+
+fruits = ('mango', 'kiwi', 'orange', 'apple')
+
+for i in range(len("kiwi")):
+         print(fruits[i])
+
+      #new  code#
