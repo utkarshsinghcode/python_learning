@@ -9,3 +9,14 @@ thislist.sort(key = myfunc)
 
 
 print(thislist)
+       #new code#
+# add items to tuples
+
+x = ("apple", "banana", "cherry")
+y = list(x) #convert tuple to list
+
+y.append("pine") #add items to list use append
+
+x = tuple(y) #convert back to tupleand print
+
+print(x)
