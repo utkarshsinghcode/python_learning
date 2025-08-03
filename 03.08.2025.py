@@ -32,3 +32,13 @@ y.remove("pine")
 x = tuple(y) #convert back to tupleand print
 
 print(x)
+       #new code#
+#unpacking of tuple
+
+fruits = ("apple","banana","kiwi")
+
+(red,blue,pink) = fruits
+
+print(blue)
+print(red)
+print(pink)
