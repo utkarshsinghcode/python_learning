@@ -19,4 +19,16 @@ y.append("pine") #add items to list use append
 
 x = tuple(y) #convert back to tupleand print
 
+print(x) 
+       #new code#
+# remove items from tuples
+
+x = ("apple", "banana", "cherry", "pine")
+y = list(x) #convert tuple to list
+
+#remove items to list use remove()method
+y.remove("pine")
+
+x = tuple(y) #convert back to tupleand print
+
 print(x)
