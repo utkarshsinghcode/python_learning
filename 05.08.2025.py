@@ -30,3 +30,14 @@ print(x)
 
 car["year"] = 2024
 print(x)
+          #new code#
+#get items method
+
+car = {
+    "brand": "konggolia",
+    "model": "lambo",
+    "color": "red"
+}
+
+x = car.items()
+print(x)
