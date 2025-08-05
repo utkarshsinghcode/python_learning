@@ -74,3 +74,14 @@ car1 = {
 
 car1.update({"year": 2025})
 print(car1)
+        #new code#
+#adding items to dict.
+
+khet = {
+      "fruits": "orange",
+      "vitamim": "vit.c",
+      "found":  "india"
+}
+
+khet["soil"] = "black"
+print(khet)
