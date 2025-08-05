@@ -16,3 +16,17 @@ car["color"] = "grey"
 
 print(y)
 print(car)
+      #new code#
+#updating values method
+
+car = {
+    "brand": "konggolia",
+    "model": "lambo",
+    "color": "red"
+}
+
+x = car.values()
+print(x)
+
+car["year"] = 2024
+print(x)
