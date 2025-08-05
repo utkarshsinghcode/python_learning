@@ -150,3 +150,25 @@ elif b>a:
     print("b is greater")
 else:
     print("both are EQUAL")
+
+       #new code#
+#the concept of IF,ELIF,ELSE.
+# and logical concept
+a = 201
+b = 200
+c = 2003
+
+if a>b and c>a:
+     print("both are TRUE")
+     
+# or logical concept
+
+if a>b  or a>c:
+     print("one is TRUE")
+     
+# NOT logical concept
+
+if not a>b:
+     print("a is not greater")
+else:
+    print("computer is fool")
