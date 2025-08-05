@@ -41,3 +41,14 @@ car = {
 
 x = car.items()
 print(x)
+          #new code#
+#check if key exists
+
+car = {
+    "brand": "konggolia",
+    "model": "lambo",
+    "color": "red"
+}
+
+if "model" in car:
+        print("yes,'model' is key")
