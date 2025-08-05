@@ -85,3 +85,14 @@ khet = {
 
 khet["soil"] = "black"
 print(khet)
+        #new code#
+# copy a  dict. to new one
+
+car = {
+    "brand": "suzuki",
+    "model": "fronx",
+    "year":  2023
+}
+
+mydict = car.copy()
+print(mydict)
