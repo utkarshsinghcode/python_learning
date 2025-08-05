@@ -52,3 +52,25 @@ car = {
 
 if "model" in car:
         print("yes,'model' is key")
+      # new code#
+#changing  values in dict.
+
+car = {
+    "brand": "konggolia",
+    "model": "lambo",
+    "color": "red"
+}
+
+car["brand"] = "volkswogan"
+print(car)
+
+#update dictionary
+
+car1 = {
+      "brand": "brezza",
+      "model": "v6",
+      "year":  2023
+}
+
+car1.update({"year": 2025})
+print(car1)
