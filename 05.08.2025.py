@@ -114,4 +114,28 @@ myfam = {
      }
 }
 
-print(myfam)
+print(myfam) 
+
+#new code#
+#creating 3 dict. and  inserting in 1.
+
+child1 = {
+     "name": "raju",
+     "year": 2004
+}
+child2 = {     
+    
+     "name": "shyam",
+     "year": 2007,
+}
+child3 = {     
+     "name": "baburav",
+     "year": 2011
+}
+
+myfamily = {
+     "child1": child1,
+     "child2": child2,
+     "child3": child3,
+}
+print(myfamily)
