@@ -96,3 +96,22 @@ car = {
 
 mydict = car.copy()
 print(mydict)
+         #new code#
+#nested dictionaries
+
+myfam = {
+     "child1": {
+     "name": "raju",
+     "year": 2004
+     },
+     "child2": {
+     "name": "shyam",
+     "year": 2007,
+     },
+     "child3": {
+     "name": "baburav",
+     "year": 2011
+     }
+}
+
+print(myfam)
