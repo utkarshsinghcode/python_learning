@@ -139,3 +139,14 @@ myfamily = {
      "child3": child3,
 }
 print(myfamily)
+    #new code#
+#the concept of IF,ELIF,ELSE.
+
+a = 2000
+b = 2000
+if a>b :
+    print("a is greater")
+elif b>a:
+    print("b is greater")
+else:
+    print("both are EQUAL")
